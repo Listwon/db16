@@ -13,6 +13,7 @@
 * (or drag and drop image onto the exe file)
 
 **Input:** *.jpeg, *.png, *.tga, *.bmp, *.gif (RGB/RGBA)
+
 **Output:** *.png (original filename with db16_, db16s_ or db16fs_ prefix) 
 
 **Examples:**

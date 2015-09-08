@@ -33,9 +33,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	std::string fullname = pfile;
-	int lastindex = fullname.find_last_of(".");
-	std::string rawname = fullname.substr(0, lastindex);
-	std::string output = "db16fs_" + rawname + ".png";
+	std::string output = "db16fs_" + fullname.substr(0, fullname.find_last_of(".")) + ".png";
 
 	const unsigned char db16[] = {
 		20, 12, 28,
